@@ -1,6 +1,6 @@
 # apuntes sesion 3
 
-En esta sesión vamos a crear un raid 1 manualmente en centOS para guardar /var. En la siguiente sesión cifraremos la información de este dispositivo.
+En esta sesión vamos a crear un raid 1 manualmente en centOS para guardar /var. A continuación cifraremos la información de este dispositivo.
 
 Creamos una nueva máquina centOS por defecto y vamos a añadir dos discos duros, ya que queremos un RAID 1 exclusivamente para /var. Comprobamos que están los discos con lslbk.
 Para crear el raid 1 usaremos la orden mdadm. No está isntalado por defecto, así que tendríamos que hacer yum install mdadm. Si nos da error es porque no tenemos conexión a internet. Hay que introducir
